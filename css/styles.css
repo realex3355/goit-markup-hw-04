@@ -105,7 +105,12 @@ color: #434455
 
 /* ----HERO---- */
 .hero {
- background-color: var(--heading-color);
+ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+ rgba(46, 47, 66, 0.7)), 
+ url(../img/hero-bg.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
  max-width: 1440px;
  margin: 0 auto;
 }
@@ -168,8 +173,15 @@ overflow: hidden;
 .features-list {
   display:flex;
   gap: 24px;
+ }
+ .feature-icon-plate {
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
   
-}
 .features-list-item {
 }
 .features-point {
