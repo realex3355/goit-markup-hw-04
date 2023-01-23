@@ -35,7 +35,6 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
 
- 
 }
 .header > .container {
   display: flex;
@@ -215,7 +214,6 @@ margin-bottom: 72px;
 .doing-list {
   display:flex;
   gap: 24px;
-
 }
 
 /* ------OUR---TEAM----- */
@@ -256,6 +254,7 @@ margin-bottom: 8px;
 }
 .team-position {
 }
+
 /* -----icons----- */
 .team-soc-list {
 display: flex;
