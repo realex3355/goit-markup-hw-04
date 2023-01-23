@@ -382,6 +382,12 @@ gap: 16px;
   justify-content: center;  
 }
 
+.footer-soc-link:hover, 
+.footer-soc-link:focus 
+ {
+  background-color: #31D0AA;
+}
+
 .footer-soc-icon {
   fill: #f4f4fd;
   }
@@ -397,11 +403,11 @@ gap: 16px;
   justify-content: center;
   margin-bottom: 72px; 
  }
+ 
 .filter-button-item {
-  
-  
 
-}
+} 
+
 .all-btn {
 text-align: center;
 color: #FFFFFF;
@@ -428,7 +434,7 @@ color: var(--accent-color);
   color: var(--accent-color);
   }
 
-.all-btn:hover.filter-button-list {
+.filter-button-list:hover { 
 box-shadow: 3px 3px 2px 0px rgb(228, 160, 13);
 }
 
