@@ -251,9 +251,9 @@ margin-bottom: 8px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-margin-bottom: 8px;
 }
 .team-position {
+  margin-bottom: 8px;
 }
 
 /* -----icons----- */
@@ -445,7 +445,9 @@ color: var(--accent-color);
 .all-btn:focus {
   background-color: #FFFFFF;
   color: var(--accent-color);
-  box-shadow: 2px 2px 1px 0 rgba(49, 208, 170, 0.5);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+  0px 2px 1px rgba(0, 0, 0, 0.08), 
+  0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 
 .filter-button-list:hover { 
@@ -456,7 +458,9 @@ color: var(--accent-color);
 .filter-btn:focus {
 color: #FFFFFF;
 background-color: var(--accent-color);
-box-shadow: 2px 2px 1px 0 rgba(49, 208, 170, 0.5);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+  0px 2px 1px rgba(0, 0, 0, 0.08), 
+  0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* ----PORTFOLIO PICTURES----- */
@@ -468,9 +472,11 @@ box-shadow: 2px 2px 1px 0 rgba(49, 208, 170, 0.5);
   column-gap: 24px;
   
 }
+
 .port-pics-item:hover {
-  box-shadow: 0px 1px 6px 0px 
-  rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+  0px 1px 1px rgba(46, 47, 66, 0.16), 
+  0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .port-pics-descr {
